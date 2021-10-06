@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const { User } = require("../../models");
+//user routes
 
-// /api/user routes
 module.exports = router;
 
 router.get("/", async (req, res) => {
@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
     res.status(500).json(err);
   }
 });
-// signup route create new user
+//new user
 router.post("/", async (req, res) => {
   try {
     const dbUserData = await User.create({
@@ -33,7 +33,7 @@ router.post("/", async (req, res) => {
     res.status(500).json(err);
   }
 });
-// login route
+//login
 router.post("/login", async (req, res) => {
   try {
     const dbUserData = await User.findOne({

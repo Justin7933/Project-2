@@ -7,7 +7,7 @@ router.use('/post', postRoutes);
 
 module.exports = router;
 
-
+//api routes
 
 
 
