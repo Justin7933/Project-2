@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const { Post, Comment, User } = require("../../models");
 const withAuth = require("../../utils/auth");
-// /api/post routes
+//post routes
 
 router.post("/", async (req, res) => {
   try {
@@ -35,7 +35,7 @@ router.put("/:id", async (req, res) => {
 });
 
 router.delete("/:id", async (req, res) => {
-  // delete post by its id value
+  // delete post by id
   console.log("deleting post");
   try {
     const destroy = await Post.destroy({ where: { id: req.params.id } });
