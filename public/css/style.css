@@ -1,0 +1,33 @@
+body {
+  padding: 0px; 
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.card {
+  padding: 5px; 
+  margin: 10px;
+}
+
+
+.card-body {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+#h5_cont {
+  display: flex;
+  justify-content: center;
+}
+
+#logo{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+  
+  
