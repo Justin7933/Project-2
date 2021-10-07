@@ -1,0 +1,22 @@
+[
+    {
+      "username": "Michael Scott",
+      "email": "dundermifflin@gmail.com",
+      "password": "password12345"
+    },
+    {
+      "username": "Danny Phantom",
+      "email": "phantom@gmail.com",
+      "password": "password12345"
+    },
+    {
+      "username": "Babe Ruth",
+      "email": "yankees@gmail.com",
+      "password": "password12345"
+    },
+    {
+      "username": "Shia Labeouf",
+      "email": "transformers@gmail.com",
+      "password": "password12345"
+    }
+]
